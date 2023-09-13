@@ -1,8 +1,8 @@
 import {validaPeso, validaAltura} from './pesoAlturaValidacao.js';
 import {calculaIMC, retornaStatusIMC} from './calculadoraIMC.js';
 
-let peso = 78;
-let altura = 1.72;
+let peso = 98;
+let altura = 1.78;
 
 let verificaPesoValido = validaPeso(peso);
 let verificaAlturaValida = validaAltura(altura);
